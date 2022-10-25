@@ -35,15 +35,15 @@ $data2 = [
 /*
  * Реализовать интерфейс для пребразования data1 <=> data2
  */
-interface ArrayUtil {
+interface IArrayUtil {
 
     /*
      * Преобразования ключ/значение в многомерный ассоциативный массив
      */
-    function data_decode(array $data): array;
+    public static function data_decode(array $data): array;
 
     /*
      * Кодирование ассоциативного многомерного массива в key/value
      */
-    function data_encode(array $data): array;
+    public static function data_encode(array $data): array;
 }
