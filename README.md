@@ -1,5 +1,4 @@
-<?php
-
+```php
 $data1 = [
     'parent.child.field' => 1,
     'parent.child.field2' => 2,
@@ -47,3 +46,5 @@ interface IArrayUtil {
      */
     public static function data_encode(array $data): array;
 }
+
+```
